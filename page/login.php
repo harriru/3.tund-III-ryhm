@@ -24,12 +24,8 @@
 	}
 
 ?>
-<html>
-<head>
-<title>Login page</title>
-</head>
+<?php require_once("../header.php"); ?>
 
-<body>
 	<h2>log in</h2>
 		
 		<form action="login.php" method="post">
@@ -96,13 +92,12 @@
 
 
 
-</body>
 <h2>MVP teemaks luua kasutajate põhine anonüümne vestlus portaal ajax päringutega</h2>
 <br><br>
 <h2>Samuti tahtsin luua php koodi mis suudab tuvastada login ja registreerimise serveri poolse päringu eraldiseisvalt funktsooni põhiliselt komenteerisin välja all pool</h2>
 
 
-</html>
+<?php require_once("../footer.php"); ?>
 
 
 <?php
